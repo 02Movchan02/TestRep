@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf.Kapcha"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        mc:Ignorable="d"
+        Title="Подтвердите, что вы не робот" Height="200" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="ToolWindow" Style="{DynamicResource WindowStyle}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="kapchBlock" Height="35" Width="200" FontSize="33" TextAlignment="Center"></TextBlock>
+        <TextBox x:Name="tbkapch" Grid.Row="1" Height="25" Width="170" BorderThickness="0,0,0,1"/>
+        <Button x:Name="kapchAcc" Grid.Row="2" Height="35" Content="Подтвердить" Width="150" Style="{DynamicResource ButtonStyle1}" Click="kapchAcc_Click"/>
+    </Grid>
+</Window>

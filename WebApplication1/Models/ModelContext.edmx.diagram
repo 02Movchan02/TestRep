@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a05b3246fe6347b3abe4c5090247f974" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="clinicModel.accepted_services_statuses" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.accepted_servises" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.analyzers" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.countries" Width="1.5" PointX="1.5" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.insurances" Width="1.5" PointX="1.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.orders" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.patients" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.services" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.social_types" Width="1.5" PointX="1.5" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="clinicModel.users" Width="1.5" PointX="7.875" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="clinicModel.FK_accepted_servises_accepted_services_statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_accepted_servises_analyzers" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_accepted_servises_orders" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_accepted_servises_services" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_accepted_servises_users" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_patients_countries" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_patients_insurances" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_orders_patients" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.FK_patients_social_types" ManuallyRouted="false" />
+        <AssociationConnector Association="clinicModel.users_services" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="clinicModel.user_in" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="clinicModel.users_type" Width="1.5" PointX="9.125" PointY="3.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
